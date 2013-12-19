@@ -1,6 +1,6 @@
 # angular-calc
 
-* A basic calculator made in [AngularJS](http://angularjs.org/), hosted by [NodeJS](http://nodejs.org/)
+* A basic calculator made in [AngularJS](http://angularjs.org/), hosted on [NodeJS](http://nodejs.org/)
 
 ![Screen Shot](screenshots/screenshot.png)
 
@@ -16,4 +16,4 @@ your browser.
 
 ### angular-seed — the seed for AngularJS apps
 
-* The application skeleton was made my Angular-Seed
+* The application skeleton was made by Angular-Seed
