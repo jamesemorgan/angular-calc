@@ -1,5 +1,5 @@
 logs/*
-readme.html
+README.html
 !.gitkeep
 node_modules/
 tmp
