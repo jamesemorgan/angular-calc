@@ -1,0 +1,43 @@
+
+
+<div id="container">
+
+	<div id="output">
+		<input type="text" class="details" ng-model="history" />
+		<button id="back" class="btn top" ng-click="back()" 
+							ng-disabled="history.length == 0">Back</button>
+		<br />
+		<input type="text" class="details" ng-model="result" />
+		<button id="clear" class="btn top" ng-click="clear()" 
+							ng-disabled="history.length == 0 && result.length == 0">Clear</button>
+
+	</div>
+
+	<div id="keys">
+		<div id="row1">
+			<button id="1" class="btn" ng-click="digit('7')">7</button>
+			<button id="2" class="btn" ng-click="digit('8')">8</button>
+			<button id="3" class="btn" ng-click="digit('9')">9</button>
+			<button id="divide" class="btn" ng-click="action('/')">/</button>
+		</div>
+		<div id="row2">
+			<button id="1" class="btn" ng-click="digit('4')">4</button>
+			<button id="2" class="btn" ng-click="digit('5')">5</button>
+			<button id="3" class="btn" ng-click="digit('6')">6</button>
+			<button id="multiply" class="btn" ng-click="action('x')">x</button>
+		</div>
+		<div id="row3">
+			<button id="1" class="btn" ng-click="digit('1')">1</button>
+			<button id="2" class="btn" ng-click="digit('2')">2</button>
+			<button id="3" class="btn" ng-click="digit('3')">3</button>
+			<button id="minus" class="btn" ng-click="action('-')">-</button>
+		</div>
+		<div id="row4">
+			<button id="zero" class="btn" ng-click="digit('0')">0</button>
+			<button id="decimal" class="btn" ng-click="digit('.')">.</button>
+			<button id="percent" class="btn" ng-click="answer()">=</button>
+			<button id="addition" class="btn" ng-click="action('+')">+</button>
+		</div>
+	</div>
+
+</div>

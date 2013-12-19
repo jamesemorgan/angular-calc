@@ -1,0 +1,6 @@
+logs/*
+readme.html
+!.gitkeep
+node_modules/
+tmp
+.DS_Store
