@@ -17,3 +17,7 @@ your browser.
 ### angular-seed — the seed for AngularJS apps
 
 * The application skeleton was made by Angular-Seed
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jamesmorgan/angular-calc/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
