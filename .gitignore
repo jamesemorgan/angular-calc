@@ -1,3 +1,4 @@
+.idea
 logs/*
 README.html
 !.gitkeep
